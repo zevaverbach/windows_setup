@@ -7,11 +7,13 @@
     - [ ] vim mode
     - [ ] tokyo night theme
 - [ ] install Firefox
+  - [ ] set it as the default browser
 - [ ] install PowerToys
   - [ ] remap capslock to ctrl
 - [ ] install chocolatey, then open an admin-enabled Terminal session
-  - [ ] install git
-  - [ ] install neovim
+  - [ ] choco install git
+  - [ ] choco install neovim
+  - [ ] choco install gh
   - [ ] symlink the vimrc included here
     ```powershell
         mkdir ~/AppData/Local/nvim`
@@ -21,5 +23,7 @@
     ```powershell
         New-Item -Path C:\Users\User\Documents\PowerShell\Microsoft.PowerShell_profile.ps1 -ItemType SymbolicLink -Value C:\Users\User\repos\windows_setup\Microsoft.PowerShell_profile.ps1
     ```
-  - [ ] install python
+  - [ ] choco install python
+- [ ] update pip
 - [ ] install ipython
+- [ ] install pandas

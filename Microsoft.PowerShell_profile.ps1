@@ -11,6 +11,9 @@ Function openToDoFile { "opening todo.md"; vi C:\Users\User\todo.md }
 Set-Alias -Name todo -Value openToDoFile
 Function openVimRc { vi C:\Users\User\AppData\Local\nvim\init.vim }
 Set-Alias -Name vv -Value openVimRc
-Function prompt { "> " }
 
 
+
+function prompt {
+    "> " 
+}
